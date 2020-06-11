@@ -209,9 +209,13 @@
         // 克隆机器人的聊天框
         var $cloneRobot = $('.robot').first().clone();
         $cloneRobot.appendTo('.message');
-        $cloneRobot.find('p').html(xhr.responseText);
+        // console.log(xhr.responseText);
+        $cloneRobot.find('p').html(eval('(' + xhr.responseText + ')').text);//将服务器返回的json转换成对象
+        // $cloneRobot.find('p').html(xhr.responseText);
       }
       xhr.send('key=f5313d10f2134234bbdbd21856516878&info='+$(".inputBox").val());
     })
   })
+
+  
 </script>
