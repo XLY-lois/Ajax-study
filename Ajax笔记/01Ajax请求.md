@@ -1,4 +1,4 @@
-#Ajax？
+#Ajax？made by lois
 
 ##不刷新页面的情况下自己发请求
 ----

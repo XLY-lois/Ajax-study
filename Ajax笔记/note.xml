@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<!-- 不是必须的 -->
+<root>
+<!-- 标签名可用随便取，但都是双标签，即成对出现。 -->
+    <name>jack</name>
+    <age>18</age>
+    <skill>singing</skill>
+</root>

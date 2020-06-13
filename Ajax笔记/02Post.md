@@ -1,6 +1,6 @@
-#Ajax发送post请求
+# Ajax发送post请求 made by lois
 ---
-###例子
+### 例子
 - 前端部分
 ```
 <!DOCTYPE html>
@@ -40,7 +40,7 @@ print_r($_POST);
 ?>
 ```
 ---
-##聊天机器人练习
+## 聊天机器人练习
 1.浏览器端
 - 输入框
 - 发送按钮
@@ -53,7 +53,7 @@ print_r($_POST);
 - 当数据回来后渲染到页面上（创建一个聊天框）
    
    - 回调函数里面
-##
+
 ```
 <!DOCTYPE html>
 <html lang="en">
